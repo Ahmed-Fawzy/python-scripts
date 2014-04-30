@@ -6,6 +6,7 @@ bbb = ['4','2','5']
 for i in range(len(aaa)):
 	if aaa[i] == bbb[i]:
 		print "matched"
-		print aaa[i]
+	else:
+		print "unmatched"
 
 
